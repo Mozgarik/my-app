@@ -1,0 +1,54 @@
+.classImg{
+width: 650px;
+height: 400px;
+}
+
+.questItem{
+    display: block;
+    margin-bottom: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(63, 110, 91);
+}
+
+.questList{
+    width: 1600px;
+    margin: 100px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sectionTittle{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(209, 255, 224);
+    font-size: 60px;
+}
+
+.questTittle{
+    width: 610px;
+    margin-left: 20px;
+    color: rgb(32, 32, 32);
+}
+
+.questDescription{
+    width: 590px;
+    margin: 30px 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.questButton{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    background-color: rgb(54, 54, 54);
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
