@@ -1,0 +1,142 @@
+@media screen and (max-width: 768px) {
+    .qualitatSection {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 20px;
+        border-bottom: 1px rgb(153, 236, 188) solid;
+    }
+
+    .qualitatList {
+        list-style: none;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .qualitatImg {
+        display: block;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+    }
+
+    .qualitatItem {
+        width: 250px;
+        margin: 40px auto;
+    }
+
+    .why {
+        color: rgb(209, 255, 224);
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .qualitatTittle {
+        color: rgb(101, 168, 129);
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .qualitatDesc {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        line-height: 1px;
+    }
+}
+
+/* tablet */
+
+
+@media screen and (min-width: 768px),
+(max-width: 1399px) {
+    .qualitatSection {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+        border-bottom: 1px rgb(153, 236, 188) solid;
+    }
+
+    .qualitatList {
+        flex-wrap: wrap;
+        margin: auto;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .qualitatImg {
+        display: block;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    .qualitatItem {
+        width: 280px;
+        margin: 40px auto;
+    }
+
+    .why {
+        color: rgb(209, 255, 224);
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .qualitatTittle {
+        color: rgb(101, 168, 129);
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .qualitatDesc {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        line-height: 1px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .qualitatSection {
+        width: 1400px;
+        margin: auto;
+        padding-bottom: 100px;
+        border-bottom: 1px rgb(153, 236, 188) solid;
+    }
+
+    .qualitatList {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 1400px;
+    }
+
+    .qualitatImg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .qualitatItem {
+        width: 300px;
+    }
+
+    .why {
+        color: rgb(209, 255, 224);
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-size: 60px;
+    }
+
+    .qualitatTittle {
+        color: rgb(101, 168, 129);
+    }
+
+    .qualitatDesc {
+        color: rgb(255, 255, 255);
+    }
+}

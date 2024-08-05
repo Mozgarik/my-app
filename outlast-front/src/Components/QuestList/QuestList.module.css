@@ -1,0 +1,179 @@
+@media screen and (max-width: 768px) {
+    .classImg {
+        width: 300px;
+        height: 200px;
+    }
+
+    .questItem {
+        display: block;
+        margin: auto;
+        width: 300px;
+        margin-bottom: 70px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        background-color: rgb(63, 110, 91);
+    }
+
+    .questList {
+        width: 100%;
+        margin: 50px auto;
+        list-style: none;
+        padding: 0px;
+    }
+
+    .sectionTittle {
+        margin-top: 30px;
+        text-align: center;
+        color: rgb(209, 255, 224);
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .questTittle {
+        margin-left: 10px;
+        width: 300px;
+        color: rgb(32, 32, 32);
+    }
+
+    .questDescription {
+        margin-left: 10px;
+        width: 280px;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .questButton {
+        margin-left: 10px;
+        margin-bottom: 50px;
+        background-color: rgb(54, 54, 54);
+        padding: 10px 20px;
+        border-radius: 5px;
+        outline: 0;
+        border: 0;
+        border: 1px solid rgb(255, 255, 255);
+        color: white;
+    }
+}
+
+
+/* tablet */
+
+
+@media screen and (min-width: 769px),
+(max-width: 1399) {
+    .classImg {
+        width: 420px;
+        height: 250px;
+    }
+
+    .questItem {
+        display: block;
+        margin: auto;
+        width: 420px;
+        margin-bottom: 70px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        background-color: rgb(63, 110, 91);
+    }
+
+    .questList {
+        width: 100%;
+        margin: 50px auto;
+        list-style: none;
+        padding: 0px;
+    }
+
+    .sectionTittle {
+        margin-top: 30px;
+        text-align: center;
+        color: rgb(209, 255, 224);
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .questTittle {
+        width: 300px;
+        margin-left: 20px;
+        color: rgb(32, 32, 32);
+    }
+
+    .questDescription {
+        width: 370px;
+        color: white;
+        font-weight: 400;
+        font-size: 17px;
+        margin-left: 20px
+    }
+
+    .questButton {
+        margin-left: 20px;
+        margin-bottom: 50px;
+        background-color: rgb(54, 54, 54);
+        padding: 10px 20px;
+        border-radius: 5px;
+        outline: 0;
+        border: 0;
+        border: 1px solid rgb(255, 255, 255);
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .classImg {
+        width: 650px;
+        height: 400px;
+    }
+
+    .questItem {
+        margin: 0px;
+        width: 650px;
+        display: block;
+        margin-bottom: 70px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        background-color: rgb(63, 110, 91);
+    }
+
+    .questList {
+        width: 1400px;
+        margin: 100px auto;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .sectionTittle {
+        margin-top: 100px;
+        text-align: center;
+        color: rgb(209, 255, 224);
+        font-size: 60px;
+    }
+
+    .questTittle {
+        width: 610px;
+        margin-left: 20px;
+        color: rgb(32, 32, 32);
+    }
+
+    .questDescription {
+        width: 590px;
+        margin: 30px 30px;
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .questButton {
+        margin-left: 30px;
+        margin-bottom: 50px;
+        background-color: rgb(54, 54, 54);
+        padding: 10px 20px;
+        border-radius: 5px;
+        outline: 0;
+        border: 0;
+        border: 1px solid rgb(255, 255, 255);
+        color: white;
+    }
+}
